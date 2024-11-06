@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --color--white: #F8F8FF;
+    --color--black: #000;
+    --color--hover: #EE3B3B;
+}
+
+html, body{
+    height: 100%;
+}
+
+html ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--color--hover);
+}
+
+html ::-webkit-scrollbar-track {
+    background: var(--color--black);
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    background: url(../assets/img/Mulheres.jpg) no-repeat;
+    background-size: cover;
+}
+
+.back-opc{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color--black);
+    opacity: 0.7;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 60px
+}
+
+.navbar ul, a{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: var(--color--white);
+    
+}
+
+.navbar a{
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: var(--color--hover);
+    border-bottom: 1px solid var(--color--hover);
+    transition:0.5s ease-in-out;
+}
+
+
+#navbar_logo{
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+}
+
+.title{
+    color: var(--color--white);
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+
+.container2{
+    color: var(--color--white);
+    width: 100%;
+    height: 1060px;
+    background-color:var(--color--black);
+}
+.img-ct2{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 1010px;
+    
+}
+
+.img-ct2 img{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    top: 30px;
+    left: 12%;
+    border: 5px solid var(--color--white);
+}
+
+.block{
+    width: 1000px;
+    margin-left: 100px;
+}
+
+.block h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.block p{
+    text-align: justify;
+    font-size: 18px;
+}
